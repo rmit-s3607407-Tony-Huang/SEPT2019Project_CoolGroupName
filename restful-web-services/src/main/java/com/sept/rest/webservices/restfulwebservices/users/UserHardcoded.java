@@ -1,4 +1,4 @@
-package com.spet.rest.webservices.restfulwebservices.users;
+package com.sept.rest.webservices.restfulwebservices.users;
 
 
 import java.util.ArrayList;
