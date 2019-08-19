@@ -46,9 +46,8 @@ class ViewTransactionsComponent extends Component {
         return (
             <div>
                 <h1>Transactions of {username}</h1>
-                <br/>
-                {this.state.message && <div class="alert alert-success">{this.state.message}</div>}
                 <div className="container">
+                    {this.state.message && <div class="alert alert-success">{this.state.message}</div>}
                     <table className="table">
                         <thead>
                             <tr>
