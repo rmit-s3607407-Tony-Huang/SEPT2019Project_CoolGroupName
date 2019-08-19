@@ -28,7 +28,7 @@ class HeaderComponent extends Component {
                     </ul>
                     <ul className="navbar-nav navbar-collapse justify-content-end">
                         {isUserLoggedIn && <li><Link className="nav-link" to="/todo">View Account</Link></li>}
-                        {isUserLoggedIn && <li><Link className="nav-link" to="/todo">View Transactions</Link></li>}
+                        {isUserLoggedIn && <li><Link className="nav-link" to="/view_transactions">View Transactions</Link></li>}
                         {isUserLoggedIn && <li><Link className="nav-link" to="/todo">Manage Ads</Link></li>}
                         {isUserLoggedIn && <li><Link className="nav-link" to="/todo">Messages</Link></li>}
                         {isUserLoggedIn && <li><Link className="nav-link" to="/todo">Settings</Link></li>}
